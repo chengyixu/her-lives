@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3A001 /* HerLivesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A101 /* HerLivesApp.swift */; };
+		B3A002 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A102 /* Agent.swift */; };
+		B3A003 /* LivingWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A103 /* LivingWorld.swift */; };
+		B3A004 /* CoreModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A104 /* CoreModels.swift */; };
+		B3A005 /* QwenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A105 /* QwenAIService.swift */; };
+		B3A006 /* MemoryStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A106 /* MemoryStream.swift */; };
+		B3A007 /* ReflectionSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A107 /* ReflectionSystem.swift */; };
+		B3A008 /* PlanningSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A108 /* PlanningSystem.swift */; };
+		B3A009 /* CognitiveOrchestra.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A109 /* CognitiveOrchestra.swift */; };
+		B3A010 /* RelationshipNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A110 /* RelationshipNetwork.swift */; };
+		B3A011 /* CulturalSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A111 /* CulturalSystem.swift */; };
+		B3A025 /* SaveGameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A125 /* SaveGameManager.swift */; };
+		B3A012 /* EconomicSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A112 /* EconomicSystem.swift */; };
+		B3A013 /* PhysicalSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A113 /* PhysicalSpace.swift */; };
+		B3A014 /* EmergenceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A114 /* EmergenceDetector.swift */; };
+		B3A030 /* ReputationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A130 /* ReputationSystem.swift */; };
+		B3A031 /* EnvironmentalObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A131 /* EnvironmentalObjects.swift */; };
+		B3A015 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A115 /* WorldView.swift */; };
+		B3A016 /* AgentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A116 /* AgentDetailView.swift */; };
+		B3A017 /* AgentSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A117 /* AgentSidebarView.swift */; };
+		B3A018 /* WorldStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A118 /* WorldStatsView.swift */; };
+		B3A019 /* TimeControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A119 /* TimeControlView.swift */; };
+		B3A020 /* AgentDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A120 /* AgentDetailCard.swift */; };
+		B3A021 /* EmergentEventNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A121 /* EmergentEventNotification.swift */; };
+		B3A022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A122 /* Assets.xcassets */; };
+		B3A026 /* MissingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A126 /* MissingViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3A101 /* HerLivesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerLivesApp.swift; sourceTree = "<group>"; };
+		B3A102 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		B3A103 /* LivingWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingWorld.swift; sourceTree = "<group>"; };
+		B3A104 /* CoreModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreModels.swift; sourceTree = "<group>"; };
+		B3A105 /* QwenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QwenAIService.swift; sourceTree = "<group>"; };
+		B3A106 /* MemoryStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemoryStream.swift; path = MemoryStream.swift; sourceTree = "<group>"; };
+		B3A107 /* ReflectionSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionSystem.swift; sourceTree = "<group>"; };
+		B3A108 /* PlanningSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningSystem.swift; sourceTree = "<group>"; };
+		B3A109 /* CognitiveOrchestra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveOrchestra.swift; sourceTree = "<group>"; };
+		B3A110 /* RelationshipNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipNetwork.swift; sourceTree = "<group>"; };
+		B3A111 /* CulturalSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturalSystem.swift; sourceTree = "<group>"; };
+		B3A125 /* SaveGameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveGameManager.swift; sourceTree = "<group>"; };
+		B3A112 /* EconomicSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicSystem.swift; sourceTree = "<group>"; };
+		B3A113 /* PhysicalSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalSpace.swift; sourceTree = "<group>"; };
+		B3A114 /* EmergenceDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergenceDetector.swift; sourceTree = "<group>"; };
+		B3A130 /* ReputationSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReputationSystem.swift; sourceTree = "<group>"; };
+		B3A131 /* EnvironmentalObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentalObjects.swift; sourceTree = "<group>"; };
+		B3A115 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		B3A116 /* AgentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentDetailView.swift; sourceTree = "<group>"; };
+		B3A117 /* AgentSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentSidebarView.swift; sourceTree = "<group>"; };
+		B3A118 /* WorldStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldStatsView.swift; sourceTree = "<group>"; };
+		B3A119 /* TimeControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeControlView.swift; sourceTree = "<group>"; };
+		B3A120 /* AgentDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentDetailCard.swift; sourceTree = "<group>"; };
+		B3A121 /* EmergentEventNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergentEventNotification.swift; sourceTree = "<group>"; };
+		B3A122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3A123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A124 /* Her Lives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Her Lives.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A126 /* MissingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingViews.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3A301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3A401 = {
+			isa = PBXGroup;
+			children = (
+				B3A402 /* Her Lives */,
+				B3A403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3A402 /* Her Lives */ = {
+			isa = PBXGroup;
+			children = (
+				B3A101 /* HerLivesApp.swift */,
+				B3A404 /* Core */,
+				B3A405 /* Models */,
+				B3A406 /* Services */,
+				B3A407 /* Systems */,
+				B3A408 /* Views */,
+				B3A122 /* Assets.xcassets */,
+				B3A123 /* Info.plist */,
+			);
+			path = "Her Lives";
+			sourceTree = "<group>";
+		};
+		B3A403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3A124 /* Her Lives.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3A404 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B3A102 /* Agent.swift */,
+				B3A103 /* LivingWorld.swift */,
+				B3A106 /* MemoryStream.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B3A405 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B3A104 /* CoreModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B3A406 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B3A105 /* QwenAIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B3A407 /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				B3A107 /* ReflectionSystem.swift */,
+				B3A108 /* PlanningSystem.swift */,
+				B3A109 /* CognitiveOrchestra.swift */,
+				B3A110 /* RelationshipNetwork.swift */,
+				B3A111 /* CulturalSystem.swift */,
+				B3A125 /* SaveGameManager.swift */,
+				B3A112 /* EconomicSystem.swift */,
+				B3A113 /* PhysicalSpace.swift */,
+				B3A114 /* EmergenceDetector.swift */,
+				B3A130 /* ReputationSystem.swift */,
+				B3A131 /* EnvironmentalObjects.swift */,
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
+		B3A408 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3A115 /* WorldView.swift */,
+				B3A116 /* AgentDetailView.swift */,
+				B3A117 /* AgentSidebarView.swift */,
+				B3A118 /* WorldStatsView.swift */,
+				B3A119 /* TimeControlView.swift */,
+				B3A120 /* AgentDetailCard.swift */,
+				B3A121 /* EmergentEventNotification.swift */,
+				B3A126 /* MissingViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3A501 /* Her Lives */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A601 /* Build configuration list for PBXNativeTarget "Her Lives" */;
+			buildPhases = (
+				B3A302 /* Sources */,
+				B3A301 /* Frameworks */,
+				B3A303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Her Lives";
+			productName = "Her Lives";
+			productReference = B3A124 /* Her Lives.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3A201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					B3A501 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B3A602 /* Build configuration list for PBXProject "Her Lives" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3A401;
+			productRefGroup = B3A403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3A501 /* Her Lives */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3A303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A022 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3A302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A001 /* HerLivesApp.swift in Sources */,
+				B3A002 /* Agent.swift in Sources */,
+				B3A003 /* LivingWorld.swift in Sources */,
+				B3A004 /* CoreModels.swift in Sources */,
+				B3A005 /* QwenAIService.swift in Sources */,
+				B3A006 /* MemoryStream.swift in Sources */,
+				B3A007 /* ReflectionSystem.swift in Sources */,
+				B3A008 /* PlanningSystem.swift in Sources */,
+				B3A009 /* CognitiveOrchestra.swift in Sources */,
+				B3A010 /* RelationshipNetwork.swift in Sources */,
+				B3A011 /* CulturalSystem.swift in Sources */,
+				B3A025 /* SaveGameManager.swift in Sources */,
+				B3A012 /* EconomicSystem.swift in Sources */,
+				B3A013 /* PhysicalSpace.swift in Sources */,
+				B3A014 /* EmergenceDetector.swift in Sources */,
+				B3A030 /* ReputationSystem.swift in Sources */,
+				B3A031 /* EnvironmentalObjects.swift in Sources */,
+				B3A015 /* WorldView.swift in Sources */,
+				B3A016 /* AgentDetailView.swift in Sources */,
+				B3A017 /* AgentSidebarView.swift in Sources */,
+				B3A018 /* WorldStatsView.swift in Sources */,
+				B3A019 /* TimeControlView.swift in Sources */,
+				B3A020 /* AgentDetailCard.swift in Sources */,
+				B3A021 /* EmergentEventNotification.swift in Sources */,
+				B3A026 /* MissingViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B3A701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GM9T6P56A4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3A702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GM9T6P56A4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3A703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Her Lives/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Her-Lives";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3A704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Her Lives/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Her-Lives";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3A601 /* Build configuration list for PBXNativeTarget "Her Lives" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A703 /* Debug */,
+				B3A704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A602 /* Build configuration list for PBXProject "Her Lives" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A701 /* Debug */,
+				B3A702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3A201 /* Project object */;
+}
